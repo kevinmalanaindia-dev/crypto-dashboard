@@ -1,0 +1,36 @@
+# Dependencies
+/node_modules
+/.next
+/dist
+/out
+
+# Vercel
+.vercel
+
+# Production builds
+/build
+
+# Misc
+.DS_Store
+*.pnp
+.pnp.js
+
+# Environment variables
+.env
+.env*.local
+.env.local
+
+# TypeScript
+*.tsbuildinfo
+next-env.d.ts
+
+# Logs
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Optional caches
+.next/cache
+
+# Shadcn
+/src/components/ui
